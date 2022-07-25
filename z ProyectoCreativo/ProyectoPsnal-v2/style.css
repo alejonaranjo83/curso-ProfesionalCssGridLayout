@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', cursive;
+    background: yellow;
+}
+
+.abuelo {
+    width: 100%;
+    height: 100vh;
+    background: yellow;
+    margin-top: 8rem;
+}
+
+.container {
+    width: 70rem;
+    height: 30rem;
+    margin: auto;
+    background: yellow;
+    display: grid;
+    grid-template-columns: 30rem 5rem 5rem 30rem;
+    grid-template-rows: 8rem 12rem 10rem;
+    transform: rotate(-30deg);
+    /* position: relative;
+    top: 6fr;
+    left: 6fr; */
+    
+}
+
+.item-1 {
+    width: 30rem;
+    height: 8rem;
+    /* background: blue; */
+    grid-column-start: 1;
+    grid-row: 1 / 2;
+    font-size: 5rem;
+    display: grid;
+    justify-items: flex-end;
+    position: relative;
+    right: 1rem;
+    bottom: 0.6rem;
+}
+
+.item-2a {
+    width: 5rem;
+    height: 8rem;
+    /* background: green; */
+    grid-column-start: 2;
+    grid-row: 1 / 2;
+    writing-mode: vertical-lr;
+    font-size: 3.3rem;
+    position: relative;
+    left: -0.3rem;
+    bottom: -1.3rem;
+}
+
+.item-2b {
+    width: 5rem;
+    height: 12rem;
+    /* background: green; */
+    grid-column-start: 2;
+    grid-row: 2 / 3;
+    font-family: 'Anybody', cursive;
+    writing-mode: vertical-lr;
+    font-size: 5.3rem;
+    color: black;
+    position: relative;
+    left: -1.3rem;
+    bottom: -1rem;
+}
+
+.item-3 {
+    width: 30rem;
+    height: 12rem;
+    /* background: red; */
+    grid-column-start: 1;
+    grid-row: 2 / 3;
+}
+
+.item-4 {
+    width: 40rem;
+    height: 10rem;
+    /* background: purple; */
+    font-size: 10rem;
+    grid-column-start: 2;
+    grid-row: 3 / 4;
+    position: relative;
+    left: 0.7rem;
+    top: -2rem;
+}
+
+.item-5 {
+    width: 5rem;
+    height: 8rem;
+    /* background: purple; */
+    font-size: 0.55rem;
+    grid-column-start: 2;
+    grid-row: 1 / 2;
+    font-family: 'Anybody', cursive;
+    writing-mode: vertical-rl;
+    display: grid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    left: 3.8rem;
+    bottom: 0.6rem;
+    text-align: right;
+}
+
+.item-6 {
+    width: 30rem;
+    height: 8rem;
+    /* background: purple; */
+    font-size: 0.55rem;
+    grid-column-start: 1;
+    grid-row: 2 / 3;
+    font-family: 'Anybody', cursive;
+    writing-mode: vertical-rl;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    left: -1rem;
+    bottom: -1.2rem;
+    text-align: left;
+}
+
+.item-7 {
+    width: 30rem;
+    height: 12rem;
+    /* background: purple; */
+    font-size: 0.55rem;
+    grid-column-start: 2;
+    grid-row: 2 / 3;
+    font-family: 'Anybody', cursive;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    left: 6.5rem;
+    bottom: 0.8rem;
+    text-align: left;
+}
+
+.line-hor1 {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    height: 2px;
+    border-bottom: 0.7rem solid black;
+}
+
+.line-vert1 {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    width: 2px;
+    border-left: 0.7rem solid black;
+    position: relative;
+    left: -0.4rem;
+}
+
+.line-hor2 {
+    grid-column: 2 / 5;
+    grid-row: 3;
+    height: 2px;
+    border-bottom: 0.7rem solid black;
+}
+
+.icon-1 img{
+    display: block;
+    width: 3rem;
+    position: relative;
+    top: 17.4rem;
+    left: -13.5rem;
+}
+
+.icon-2 img{
+    display: block;
+    width: 2.5rem; 
+    position: relative;
+    top: 9.42rem;
+    right: -6rem;
+}
+
+.mask1 {
+    width: 8.9rem;
+    height: 1.5rem;
+    background: yellow;
+    position: relative;
+    top: -12.4rem;
+    left: 0rem;
+}
+.mask2 {
+    width: 1.5rem;
+    height: 0.5rem;
+    background: yellow;
+    position: relative;
+    top: -21.3rem;
+    left: 29.1rem;
+}
+.mask3 {
+    width: 1.5rem;
+    height: 0.5rem;
+    background: yellow;
+    position: relative;
+    top: -22.5rem;
+    left: -0.9rem;
+}
+.mask4 {
+    width: 0.5rem;
+    height: 1.5rem;
+    background: yellow;
+    position: relative;
+    top: -10.5rem;
+    left: -4.7rem;
+}
+.mask5 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: yellow;
+    position: relative;
+    top: -1.3rem;
+    left: -10.7rem;
+}
+.mask6 {
+    width: 2.6rem;
+    height: 1.5rem;
+    background: yellow;
+    /* display: grid;
+    justify-items: flex-end;
+    align-items: flex-end; */
+    position: relative;
+    top: -12rem;
+    left: 67.5rem;
+}
+.mask7 {
+    width: 4.6rem;
+    height: 1.5rem;
+    background: yellow;
+    position: relative;
+    top: -24rem;
+    left: 6rem;
+}
