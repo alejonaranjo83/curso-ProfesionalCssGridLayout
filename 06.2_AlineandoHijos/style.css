@@ -1,0 +1,59 @@
+/* Ejemplo inicial de clase 24 */
+/* .container {
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+}
+
+.item:nth-child(1) {
+    background: hotpink;
+    place-self: start;
+}
+  
+.item:not(:nth-child(1)) {
+    background: turquoise;
+} */
+/* la pseudo clase q se usa ahí quiere decir: todos menos el primer hijo */
+
+
+
+
+/*  Ejemplo 2 de clase 24*/
+/* .container {
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+    height: 60px;
+}
+
+.item:nth-child(1) {
+    background: hotpink;
+    align-self: start;
+}
+  
+.item:not(:nth-child(1)) {
+    background: turquoise;
+} */
+
+
+
+
+/*  Quiz clase 24*/
+.container {
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+    height: 60px;
+}
+
+.item:nth-child(1) {
+    background: hotpink;
+    place-self: center stretch;
+}
+  
+.item:not(:nth-child(1)) {
+    background: turquoise;
+}

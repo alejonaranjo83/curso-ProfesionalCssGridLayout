@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Empezó con esto pero veo q con la propiedad de "grid-area" es suficiente */
+/* .container {
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+}
+
+.item-one {
+    background: hotpink;
+    width: 30px;
+    height: 30px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+} */
+
+
+/* Ejercicio hecho durante la clase 23*/
+/* .container {
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "card-1 card-2"
+        "card-1 card-3";
+    width: 60px;
+}
+
+.item-one {
+    background: hotpink;
+    grid-area: card-1;
+}
+
+.item-two {
+    background: blue;
+    grid-area: card-2;
+}
+
+.item-three {
+    background: blueviolet;
+    grid-area: card-3;
+} */
+
+
+
+/* Reto al final de la clase 23*/
+.container {
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "card-1 card-2"
+        "card-3 card-3";
+    width: 60px;
+}
+
+.item-one {
+    background: hotpink;
+    grid-area: card-1;
+}
+
+.item-two {
+    background: blue;
+    grid-area: card-2;
+}
+
+.item-three {
+    background: blueviolet;
+    grid-area: card-3;
+}

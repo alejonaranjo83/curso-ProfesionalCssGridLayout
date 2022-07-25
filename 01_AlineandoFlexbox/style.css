@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: 'Lato', sans-serif;
+  width: 550px;
+}
+
+.container1, 
+.container2, 
+.container3, 
+.container4, 
+.container5, 
+.container6, 
+.container7, 
+.container8, 
+.container9 {
+  background: #264653ff;
+  width: 180px;
+  height: 180px;
+}
+
+.element1, 
+.element2, 
+.element3 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.element1 {
+  background: #e9c46aff;
+}
+
+.element2 {
+  background: #f4a261ff;
+}
+
+.element3 {
+  background: #e76f51ff;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container6 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container7 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.container8 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container9 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

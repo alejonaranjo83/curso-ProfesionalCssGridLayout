@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Anybody', cursive; */
+    /* font-family: 'Zen Dots', cursive; */
+}
+
+.abuelo {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    /* display: grid; */
+    /* justify-content: stretch;
+    align-items: stretch; */
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.padre {
+    width: 70rem;
+    height: 30rem;
+    margin: auto;
+    background: yellow;
+    display: grid;
+    grid-template-columns: 30rem 40rem;
+    grid-template-rows: 20rem 10rem;
+    transform: rotate(-30deg);
+    /* position: relative;
+    top: 6fr;
+    left: 6fr; */
+}
+
+.hijo1 {
+    width: 30rem;
+    height: 20rem;
+    background: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 11rem 9rem;
+    font-size: 4rem;
+}
+
+.hijo2 {
+    width: 40rem;
+    height: 20rem;
+    background: green;
+    display: grid;
+    grid-template-columns: 7rem 7rem 32rem;
+    grid-template-rows: 11rem 9rem;
+    grid-column-start: 2;
+    grid-row: 1 / 2;
+    writing-mode: vertical-lr;
+    font-size: 2rem;
+    font-family: 'Anybody', cursive;
+}
+
+.hijo2 :last-child{
+    /* width: 40rem;
+    height: 20rem;
+    background: green;
+    display: grid;
+    grid-template-columns: 7rem 7rem 32rem;
+    grid-template-rows: 11rem 9rem; */
+    grid-column-start: 2;
+    grid-row: 1 / 2;
+    font-family: 'Anybody', cursive;
+    /* writing-mode: vertical-lr; */
+    font-size: 7rem;
+    color: white;
+    /* position: absolute;
+    left: -1.5rem; */
+}
+
+.hijo3 {
+    width: 30rem;
+    height: 10rem;
+    background: red;
+}
+
+.hijo4 {
+    width: 40rem;
+    height: 10rem;
+    background: purple;
+    font-size: 5.5rem;
+}
+
+.hijo1 h1 {
+    text-align: right;
+    text-align: end;
+    color: white;
+}
+
+
+/* Posibles fuentes
+
+BEBAS NEUE:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+font-family: 'Bebas Neue', cursive;
+
+
+ANYBODY:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;300;500;900&display=swap" rel="stylesheet">
+
+font-family: 'Anybody', cursive;
+
+
+ZEN DOTS:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+font-family: 'Zen Dots', cursive;
+*/
